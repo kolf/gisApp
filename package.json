@@ -1,0 +1,27 @@
+{
+  "private": true,
+  "author": "kolf <kolf@live.cn>",
+  "scripts": {
+    "dev": "umi dev",
+    "build": "umi build",
+    "postinstall": "umi setup",
+    "setup": "umi setup",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "@antv/l7": "^2.13.3",
+    "@antv/larkmap": "^1.1.3",
+    "@umijs/plugins": "^4.0.49",
+    "ahooks": "^3.7.4",
+    "antd": "^4.24.6",
+    "axios": "^1.3.2",
+    "axios-jsonp": "^1.0.4",
+    "dayjs": "^1.11.7",
+    "umi": "^4.0.49"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "typescript": "^4.1.2"
+  }
+}
